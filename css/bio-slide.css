@@ -1,0 +1,42 @@
+.bio-slide {
+  position: relative;
+}
+
+.bio-slide  #bio-name {
+  font-size   : 125%;
+  font-weight : bold;
+  display     : block;
+}
+
+.bio-slide  #bio-about {
+  font-size   : 80%;
+  line-height : 150%;
+  margin-top  : 16px;
+  display     : block;
+}
+
+.bio-slide  #bio-details {
+  position      : absolute;
+  bottom        : 0;
+  left          : 0;
+  width         : 50%;
+  font-size     : 80%;
+  margin-bottom : 16px;
+  display       : block;
+}
+
+.bio-slide .col-left,
+.bio-slide .col-right {
+  height: 100%;
+}
+
+.bio-image-container {
+  overflow  : hidden;
+  text-align: center;
+}
+
+.bio-slide img#bio-photo {
+  max-height: 500px;
+  max-width : 100%;
+  margin    : 0;
+}

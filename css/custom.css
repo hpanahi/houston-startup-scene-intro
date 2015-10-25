@@ -1,0 +1,40 @@
+.blood-custom {
+  color: #ddd;
+}
+
+.blood-custom .header-em {
+  font-weight : bold;
+  color       : #CC293D;
+  margin-top  : 20px;
+  display     : block;
+}
+
+.blood-custom .col-right {
+  float       : right;
+  width       : 50%;
+  text-align  : left;
+}
+
+.blood-custom .col-left {
+  float       : left;
+  width       : 50%;
+  text-align  : left;
+}
+
+.blood-custom .font-small {
+  font-size: 90% !important;
+}
+
+.blood-custom .full-width {
+  display: block;
+}
+
+.clearfix:after {
+  content : "";
+  display : table;
+  clear   : both;
+}
+
+.tmar0  { margin-top:  0    !important; }
+.tmar8  { margin-top:  8px  !important; }
+.tmar16 { margin-top: 16px  !important; }
