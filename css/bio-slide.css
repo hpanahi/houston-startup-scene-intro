@@ -6,6 +6,7 @@
   font-size   : 125%;
   font-weight : bold;
   display     : block;
+  color       : #CC293D;
 }
 
 .bio-slide  #bio-about {
@@ -23,6 +24,10 @@
   font-size     : 80%;
   margin-bottom : 16px;
   display       : block;
+}
+
+.bio-slide #bio-details a {
+  color: #ddd;
 }
 
 .bio-slide .col-left,
